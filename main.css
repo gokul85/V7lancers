@@ -1,0 +1,105 @@
+.header{
+    background-color: #FF8947;
+}
+
+#cart-icon, #bell-icon, #heart-icon, #user-icon, #home-icon, #bar-icon{
+    font-size: 20px;
+    padding: 15px;
+}
+
+.header-icons, .header-bar{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.cart-link, .user-link, .home-link{
+    color: black;
+}
+
+#h300{
+    height: 300px;
+}
+
+#h500{
+    height: 500px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.header2{
+    background-color: #3465E2;
+}
+
+.products{
+    padding: 10px;
+}
+
+
+
+footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    position: relative;
+    font-family: "Mulish",sans-serif;
+    background: linear-gradient(45deg, #FF8947, #3465E2);
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  footer .social-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  footer .social-links a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    margin: 5px 15px;
+    -webkit-box-shadow: 0 1px 4px 3px rgba(0, 0, 0, 0.1) !important;
+            box-shadow: 0 1px 4px 3px rgba(0, 0, 0, 0.1) !important;
+    background-color: transparent !important;
+    background: transparent !important;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  
+  footer .social-links a:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    color: #000 !important;
+    background-color: #fff !important;
+    background: #fff !important;
+  }
+  
+  footer hr {
+    background-color: lightgray;
+  }
